@@ -83,159 +83,182 @@ To run this project, you need the following tools:
 ### Setup
 
 Clone this repository to your desired folder:
-```
+
 sh
 cd WEBPACK-AZURE
 git clone https://github.com/AndresGuevara18/4-proyecto-azure
 
 command: 
+```
 npm install
-
-Description: Download and install all dependencies listed in dependencies and devDependencies.
+```
+*Description: Download and install all dependencies listed in dependencies and devDependencies.**
 
 command:
 npm start
 
 
 Description: this script starts a development server
-```
+
 
 ### Project Commands
 
 Below are the commands used in the project, from initial setup to deployment on Azure:
 
-Project Initialization
+***Project Initialization***
 
+Command:
 ```
-Command: npm init -y
-
+ npm init -y
+```
 Description: Creates a package.json file with default values.
-```
 
-Linters Installation
-```
+
+***Linters Installation***
+
 Hint: 
+```
 npm install --save-dev hint@7.x
-
-Stylelint: 
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-
-ESLint: 
+```
+Stylelint:
+``` 
+npm install --save-dev stylelint@13.x 
+stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
+ESLint:
+``` 
 npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-
+```
 Description: Installs linters for HTML, CSS, and JavaScript.
-```
 
-Running Linters
-```
+
+***Running Linters***
+
 Hint: 
+```
 npx hint .
-
+```
 Stylelint: 
+```
 npx stylelint "**/*.css"
-
-ESLint: 
+```
+ESLint:
+``` 
 npx eslint .
-
+```
 Description: Runs linters to analyze the code.
-```
 
-Automatic Error Fixing
-```
-Stylelint: 
+***Automatic Error Fixing***
+
+Stylelint:
+``` 
 npx stylelint "**/*.css" --fix
-
+```
 ESLint: 
+```
 npx eslint . --fix
-
+```
 Description: Automatically fixes detected errors.
-```
 
-Webpack Installation
-```
+
+***Webpack Installation***
+
 Command: 
+```
 npm install webpack webpack-cli --save-dev
-
+```
 Description: Installs Webpack and its CLI.
-```
 
-Webpack Loaders and Plugins Configuration
-```
+
+***Webpack Loaders and Plugins Configuration***
+
 CSS Loader: 
+```
 npm install --save-dev style-loader css-loader
-
+```
 HTML Loader: 
+```
 npm install --save-dev html-loader
-
+```
 HTML Webpack Plugin: 
+```
 npm install --save-dev html-webpack-plugin
-
+```
 Webpack Dev Server: 
+```
 npm install --save-dev webpack-dev-server
-
+```
 Description: 
 Installs necessary loaders and plugins.
-```
 
-Babel Configuration
-```
+***Babel Configuration***
+
 Command: 
+```
 npm install 
 --save-dev babel-loader @babel/core @babel/preset-env
-
+```
 Description: Installs Babel to transpile JavaScript code.
-```
 
-Project Bundling
-```
+
+***Project Bundling***
+
 Development Mode: 
+```
 npm run build-dev
-
+```
 Production Mode: 
+```
 npm run build-prod
-
+```
 Description: Bundles the project using Webpack.
-```
 
-Starting the Development Server
-```
-Command: 
+***Starting the Development Server***
+
+Command:
+``` 
 npm start
-
+```
 Description: Starts the Webpack development server.
-```
 
-Express Installation
-```
+
+***Express Installation***
+
 Command: 
+```
 npm install express
-
+```
 Description: Installs Express.js for creating a web server.
-```
 
-Production Server Configuration
-```
+
+***Production Server Configuration***
+
 Command: 
+```
 node server.js
-
+```
 Description: Starts the production server.
-```
 
-Deployment to Azure
-```
+***Deployment to Azure***
+
 GitHub Actions Configuration: See azure-deploy.yml file.
-```
 
-Pushing Changes to GitHub:
-```
+
+***Pushing Changes to GitHub:***
+
 sh
 Copy
-git add .
-git commit -m "Commit message"
-git push origin main
-
-Description: Configures automatic deployment to Azure.
 ```
+git add .
+```
+```
+git commit -m "Commit message"
+```
+```
+git push origin main
+```
+Description: Configures automatic deployment to Azure.
+
 <p align="right"><a href="#readme-top">Back to top</a></p>
 👥 Authors <a name="authors"></a>
 
