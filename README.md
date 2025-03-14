@@ -10,23 +10,13 @@
 
 # ✅ TABLE OF CONTENTS
 - [✅ TABLE OF CONTENTS](#-table-of-contents)
-- [📖 [WEBPACK AZURE PROJECT]](#-webpack-azure-project)
+- [📖 \[WEBPACK AZURE PROJECT\]](#-webpack-azure-project)
   - [⚒️ Build With ](#️-build-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run Tests](#run-tests)
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-  - [🕹️ Future Features ](#️-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐ Show your Support](#-show-your-support)
-  - [👏 Acknowledgements ](#-acknowledgements-)
-  - [📃 License ](#-license-)
 
 # 📖 [WEBPACK AZURE PROJECT]<a name="about-project"></a>
 
@@ -95,7 +85,7 @@ Clone this repository to your desired folder:
 
 ```sh
 cd WEBPACK-AZURE
-git clonehttps://github.com/AndresGuevara18/4-proyecto-azure
+git clone https://github.com/AndresGuevara18/4-proyecto-azure
 Install
 Install the project dependencies:
 
@@ -110,53 +100,81 @@ Copy
 npm start
 To build the project for production:
 
-sh
-Copy
-npm run build
-Run Tests
-To run linting tests:
+
+<p align="right"><a href="#readme-top">Back to top</a></p>
+🛠️ Project Commands
+Below are the commands used in the project, from initial setup to deployment on Azure:
+
+Project Initialization
+Command: npm init -y
+Description: Creates a package.json file with default values.
+
+Linters Installation
+Hint: npm install --save-dev hint@7.x
+Stylelint: npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+ESLint: npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+Description: Installs linters for HTML, CSS, and JavaScript.
+
+Running Linters
+Hint: npx hint .
+Stylelint: npx stylelint "**/*.css"
+ESLint: npx eslint .
+Description: Runs linters to analyze the code.
+
+Automatic Error Fixing
+Stylelint: npx stylelint "**/*.css" --fix
+ESLint: npx eslint . --fix
+Description: Automatically fixes detected errors.
+
+Webpack Installation
+Command: npm install webpack webpack-cli --save-dev
+Description: Installs Webpack and its CLI.
+
+Webpack Loaders and Plugins Configuration
+CSS Loader: npm install --save-dev style-loader css-loader
+HTML Loader: npm install --save-dev html-loader
+HTML Webpack Plugin: npm install --save-dev html-webpack-plugin
+Webpack Dev Server: npm install --save-dev webpack-dev-server
+Description: Installs necessary loaders and plugins.
+
+Babel Configuration
+Command: npm install --save-dev babel-loader @babel/core @babel/preset-env
+Description: Installs Babel to transpile JavaScript code.
+
+Project Bundling
+Development Mode: npm run build-dev
+Production Mode: npm run build-prod
+Description: Bundles the project using Webpack.
+
+Starting the Development Server
+Command: npm start
+Description: Starts the Webpack development server.
+
+Express Installation
+Command: npm install express
+Description: Installs Express.js for creating a web server.
+
+Production Server Configuration
+Command: node server.js
+Description: Starts the production server.
+
+Deployment to Azure
+GitHub Actions Configuration: See azure-deploy.yml file.
+Pushing Changes to GitHub:
 
 sh
 Copy
-npm run lint
-Deployment
-To deploy the project to Azure, follow these steps:
-
-Set up GitHub Actions for continuous deployment.
-
-Configure Azure Web App and link it to your GitHub repository.
-
-Push changes to the main branch to trigger deployment.
+git add .
+git commit -m "Commit message"
+git push origin main
+Description: Configures automatic deployment to Azure.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 👥 Authors <a name="authors"></a>
-Mauricio Andrés Castro Guevara
+Andres Guevara
 
-🧑🏻‍💻 Author
+🧑🏻‍💻 Author 1
 
 GitHub: @AndresGuevara18
-
-LinkedIn: LinkedIn
-
-🕹️ Future Features <a name="future-features"></a>
-[Add more linters]
-
-[Improve Webpack configuration]
-
-[Add more Azure services]
-
-🤝 Contributing <a name="contributing"></a>
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the issues page.
-
-⭐ Show your Support
-If you like this project, please give it a star!
-
-👏 Acknowledgements <a name="acknowledgements"></a>
-I thank instructor Jeysson Contreras for sharing his knowledge with the trainees.
-
-📃 License <a name="license"></a>
-This project is MIT licensed.
 
 <p align="right"><a href="#readme-top">Back to top</a></p> ```
