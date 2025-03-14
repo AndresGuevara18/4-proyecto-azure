@@ -87,6 +87,17 @@ Clone this repository to your desired folder:
 sh
 cd WEBPACK-AZURE
 git clone https://github.com/AndresGuevara18/4-proyecto-azure
+
+command: 
+npm install
+
+Description: Download and install all dependencies listed in dependencies and devDependencies.
+
+command:
+npm start
+
+
+Description: this script starts a development server
 ```
 
 ### Project Commands
