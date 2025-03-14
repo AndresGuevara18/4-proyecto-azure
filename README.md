@@ -2,24 +2,24 @@
 
 <div align="center">
 
-<img src="logo.png" alt="logo" width="140" height="auto" style="border-radius:50%"   />
+<img src="logo.png" alt="logo" width="140" height="auto" style="border-radius:50%" />
 <br/>
-<h3><b>NEWTORK SCRIPT PROJECT</b>
+<h3><b>WEBPACK AZURE PROJECT</b></h3>
 
 </div>
 
 # ✅ TABLE OF CONTENTS
 - [✅ TABLE OF CONTENTS](#-table-of-contents)
-- [📖 \[NETWORK SCRIPT PROJECT\]](#-network-script-project)
+- [📖 [WEBPACK AZURE PROJECT]](#-webpack-azure-project)
   - [⚒️ Build With ](#️-build-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
-    - [Prerequsites](#prerequsites)
+    - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-    - [Run Test](#run-test)
+    - [Run Tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🕹️ Future Features ](#️-future-features-)
@@ -28,145 +28,135 @@
   - [👏 Acknowledgements ](#-acknowledgements-)
   - [📃 License ](#-license-)
 
-# 📖 [NETWORK SCRIPT PROJECT]<a name="about-project"></a>
+# 📖 [WEBPACK AZURE PROJECT]<a name="about-project"></a>
 
-*[Networ Script Project]* This is a first project in SENA'S   SysAdmin Network Curriculum
+*[Webpack Azure Project]* This project is part of the SENA Software Development Analysis curriculum, focused on deploying a web application using Webpack and Azure.
 
 ## ⚒️ Build With <a name="built-with"></a>
 
 <p>
-This Projects was built using:
-HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
+This project was built using:
+HTML, CSS, JavaScript, Webpack, Linters, GitHub, and Azure.
 </p>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <li> HTML </li>
-<li> MARKDOWN </li>
-<li> SHELLSCRIPT </li>
-<li> GIT </li>
-<li> GITHUB </li>
+<li> CSS </li>
+<li> JavaScript </li>
+<li> Webpack </li>
+<li> Linters (ESLint, Stylelint, Webhint) </li>
+<li> GitHub </li>
+<li> Azure </li>
 
 <details>
 <summary> Client </summary>
     <ul>
-    <li><a href="
-https://developer.mozilla.org/es/docs/Web/HTML
-">HTML</a></li>    
+    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a></li>
     </ul>
 </details>
 
 <details>
-<summary>Markdown</summary>
+<summary>Tools</summary>
 <ul>
-<li><a href="
-https://markdown.es/sintaxis-markdown/
-">Markdown</a></li>
+<li><a href="https://webpack.js.org/">Webpack</a></li>
+<li><a href="https://eslint.org/">ESLint</a></li>
+<li><a href="https://stylelint.io/">Stylelint</a></li>
+<li><a href="https://webhint.io/">Webhint</a></li>
 </ul>
 </details>
 
-
 ### Key Features <a name="key-features"></a>
+
+- **Linting**: Automated code quality checks using ESLint, Stylelint, and Webhint.
+- **Webpack**: Bundling and optimization of assets.
+- **Azure Deployment**: Continuous deployment to Azure using GitHub Actions.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+To get a local copy up and running, follow these steps:
 
-To get a local copy up and running follow these steps:
+### Prerequisites
 
-### Prerequsites 
+To run this project, you need the following tools:
 
-To run this project you need the following tools:
-
-- [VS Code]
-- [Git and GitHub]
-- [ShellScript ]
+- [VS Code](https://code.visualstudio.com/)
+- [Git and GitHub](https://github.com/)
+- [Node.js](https://nodejs.org/)
+- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)
 
 ### Setup
 
-Clone this respository  to your desired folder:
+Clone this repository to your desired folder:
+
+```sh
+cd WEBPACK-AZURE
+git clonehttps://github.com/AndresGuevara18/4-proyecto-azure
+Install
+Install the project dependencies:
 
 sh
-cd NEWTORK-SCRIPT
-git clone 
-https://github.com/alyconr/Network-Shell-Script-.git
-
-
-### Install
-
-Install This project with:
+Copy
+npm install
+Usage
+To run the project in development mode:
 
 sh
-    ./networkScript.sh
-
-
-### Usage 
-
-To run the project, execute the following command:
+Copy
+npm start
+To build the project for production:
 
 sh
-./networkScript.sh
-
-
-### Run Test
-
-To run test, run the following command or endpoint:
+Copy
+npm run build
+Run Tests
+To run linting tests:
 
 sh
-python -m unittest test_module.TestClass
+Copy
+npm run lint
+Deployment
+To deploy the project to Azure, follow these steps:
 
+Set up GitHub Actions for continuous deployment.
 
+Configure Azure Web App and link it to your GitHub repository.
 
-### Deployment
-
-Deploy using your local enviroment
+Push changes to the main branch to trigger deployment.
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
+👥 Authors <a name="authors"></a>
+Mauricio Andrés Castro Guevara
 
-## 👥 Authors <a name="authors"></a>
+🧑🏻‍💻 Author
 
-Jeysson Contreras
+GitHub: @AndresGuevara18
 
-🧑🏻‍💻 *Author 1*
+LinkedIn: LinkedIn
 
- - GitHub: [@alyconr](
-https://github.com/alyconr
-)
- - LinkedIn: [LinkedIn](
-https://www.linkedin.com/in/jeysson-aly-contreras
-)
+🕹️ Future Features <a name="future-features"></a>
+[Add more linters]
 
+[Improve Webpack configuration]
 
-## 🕹️ Future Features <a name="future-features"></a>
+[Add more Azure services]
 
-- [ ] *[Ping]*
-- [ ] *[Nslookup]*
-- [ ] *[BandWitdth Test]*
+🤝 Contributing <a name="contributing"></a>
+Contributions, issues, and feature requests are welcome!
 
+Feel free to check the issues page.
 
-## 🤝 Contributing <a name="contributing"></a>
+⭐ Show your Support
+If you like this project, please give it a star!
 
+👏 Acknowledgements <a name="acknowledgements"></a>
+I thank instructor Jeysson Contreras for sharing his knowledge with the trainees.
 
-Contributions, issues, and  feature requests are welcome!
+📃 License <a name="license"></a>
+This project is MIT licensed.
 
-Feel free tp check the [issues page](
-https://github.com/alyconr/Network-Shell-Script-/issues
-)
-
-
-## ⭐ Show your Support
-
-Wrrite a message to encourage readers to support your project
-
-If you like this project please give one start
-
-## 👏 Acknowledgements <a name="acknowledgements"></a>
-
-I would like to thank my learning teammates  and Sena Instructor
-
-## 📃 License <a name="license"></a>
-
-This Project is [MIT](./LICENSE.md) licensed
-
-<p align="right"><a href="#readme-top">Back to top</a></p>
+<p align="right"><a href="#readme-top">Back to top</a></p> ```
