@@ -17,6 +17,7 @@
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
+    - [Project Commands](#project-commands)
 
 # 📖 [WEBPACK AZURE PROJECT]<a name="about-project"></a>
 
@@ -82,99 +83,154 @@ To run this project, you need the following tools:
 ### Setup
 
 Clone this repository to your desired folder:
-
-```sh
+```
+sh
 cd WEBPACK-AZURE
 git clone https://github.com/AndresGuevara18/4-proyecto-azure
-Install
-Install the project dependencies:
+```
 
-sh
-Copy
-npm install
-Usage
-To run the project in development mode:
+### Project Commands
 
-sh
-Copy
-npm start
-To build the project for production:
-
-
-<p align="right"><a href="#readme-top">Back to top</a></p>
-🛠️ Project Commands
 Below are the commands used in the project, from initial setup to deployment on Azure:
 
 Project Initialization
+
+```
 Command: npm init -y
+
 Description: Creates a package.json file with default values.
+```
 
 Linters Installation
-Hint: npm install --save-dev hint@7.x
-Stylelint: npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-ESLint: npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
+Hint: 
+npm install --save-dev hint@7.x
+
+Stylelint: 
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+
+ESLint: 
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+
 Description: Installs linters for HTML, CSS, and JavaScript.
+```
 
 Running Linters
-Hint: npx hint .
-Stylelint: npx stylelint "**/*.css"
-ESLint: npx eslint .
+```
+Hint: 
+npx hint .
+
+Stylelint: 
+npx stylelint "**/*.css"
+
+ESLint: 
+npx eslint .
+
 Description: Runs linters to analyze the code.
+```
 
 Automatic Error Fixing
-Stylelint: npx stylelint "**/*.css" --fix
-ESLint: npx eslint . --fix
+```
+Stylelint: 
+npx stylelint "**/*.css" --fix
+
+ESLint: 
+npx eslint . --fix
+
 Description: Automatically fixes detected errors.
+```
 
 Webpack Installation
-Command: npm install webpack webpack-cli --save-dev
+```
+Command: 
+npm install webpack webpack-cli --save-dev
+
 Description: Installs Webpack and its CLI.
+```
 
 Webpack Loaders and Plugins Configuration
-CSS Loader: npm install --save-dev style-loader css-loader
-HTML Loader: npm install --save-dev html-loader
-HTML Webpack Plugin: npm install --save-dev html-webpack-plugin
-Webpack Dev Server: npm install --save-dev webpack-dev-server
-Description: Installs necessary loaders and plugins.
+```
+CSS Loader: 
+npm install --save-dev style-loader css-loader
+
+HTML Loader: 
+npm install --save-dev html-loader
+
+HTML Webpack Plugin: 
+npm install --save-dev html-webpack-plugin
+
+Webpack Dev Server: 
+npm install --save-dev webpack-dev-server
+
+Description: 
+Installs necessary loaders and plugins.
+```
 
 Babel Configuration
-Command: npm install --save-dev babel-loader @babel/core @babel/preset-env
+```
+Command: 
+npm install 
+--save-dev babel-loader @babel/core @babel/preset-env
+
 Description: Installs Babel to transpile JavaScript code.
+```
 
 Project Bundling
-Development Mode: npm run build-dev
-Production Mode: npm run build-prod
+```
+Development Mode: 
+npm run build-dev
+
+Production Mode: 
+npm run build-prod
+
 Description: Bundles the project using Webpack.
+```
 
 Starting the Development Server
-Command: npm start
+```
+Command: 
+npm start
+
 Description: Starts the Webpack development server.
+```
 
 Express Installation
-Command: npm install express
+```
+Command: 
+npm install express
+
 Description: Installs Express.js for creating a web server.
+```
 
 Production Server Configuration
-Command: node server.js
+```
+Command: 
+node server.js
+
 Description: Starts the production server.
+```
 
 Deployment to Azure
+```
 GitHub Actions Configuration: See azure-deploy.yml file.
-Pushing Changes to GitHub:
+```
 
+Pushing Changes to GitHub:
+```
 sh
 Copy
 git add .
 git commit -m "Commit message"
 git push origin main
-Description: Configures automatic deployment to Azure.
 
+Description: Configures automatic deployment to Azure.
+```
 <p align="right"><a href="#readme-top">Back to top</a></p>
 👥 Authors <a name="authors"></a>
-Andres Guevara
 
-🧑🏻‍💻 Author 1
+
+🧑🏻‍💻 Andres Guevara
 
 GitHub: @AndresGuevara18
 
-<p align="right"><a href="#readme-top">Back to top</a></p> ```
+<p align="right"><a href="#readme-top">Back to top</a></p> 
